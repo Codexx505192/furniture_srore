@@ -10,6 +10,12 @@ export const ways = [
     },
     {
         title: `Контакты`
+    },
+    {
+        title: `Каталог`
+    },
+    {
+        title: `О нас` 
     }
 ]
 

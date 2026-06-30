@@ -22,6 +22,18 @@ const [openMenu, setOpenMenu] = useState(false)
 
                  <Link href="#" className="lnk">
                  <WayToTeach {...ways[2]}/>
+                 </Link>
+
+                 <Link href="#" className="lnk">
+                 <WayToTeach {...ways[3]}/>
+                 </Link>
+
+                 <Link href="#" className="lnk">
+                 <WayToTeach {...ways[4]}/>
+                 </Link>
+                         
+                 <Link href="#" className="lnk">
+                 <WayToTeach {...ways[4]}/>
                  </Link>        
                </ul>
               </nav>
