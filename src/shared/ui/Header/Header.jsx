@@ -28,17 +28,26 @@ const [openMenu, setOpenMenu] = useState(false)
                  <WayToTeach {...ways[3]}/>
                  </Link>
 
-                 <Link href="#" className="lnk">
+                 <Link href="/cataloc" className="lnk">
                  <WayToTeach {...ways[4]}/>
                  </Link>
                          
-                 <Link href="#" className="lnk">
-                 <WayToTeach {...ways[4]}/>
-                 </Link>        
                </ul>
               </nav>
                
-               <p className="txt">+7 (4872) 710-150</p>
+               <div className="hader_left">
+                <p className="txt">+7 (4872) 710-150</p>
+                 
+                 <div className="btn_cart">
+                   <div className="btn_itm">
+                    <img src="./catalog_pht/shpn.png" alt="" />
+                   </div>
+
+                   <div className="counter_lm">
+                    <p>2</p>
+                   </div>
+                 </div>
+
                <div className="header_menu">
                  <ul className={`header_list ${openMenu ? "active": ""}`}>
                  <li>
@@ -73,6 +82,7 @@ const [openMenu, setOpenMenu] = useState(false)
                  <div className="header_btn" onClick={() => setOpenMenu(!openMenu)}>
                   <img src="./img/menu.png" alt="" />
                  </div>
+               </div>
                </div>
 
         </header>
