@@ -1,0 +1,613 @@
+.product_banner{
+    background-color: #FFFFFF;
+    padding: 20px 0;
+
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.prdct_back{
+    background-color: #FFFFFF;
+}
+
+
+.txt_pr{
+padding: 0 0 66px;
+font-family: HDColton-Medium;
+font-weight: 500;
+font-style: Regular;
+font-size: 15px;
+color: #A3A3A3;
+
+}
+
+.txt_pr_2{
+padding: 0 0 60px;
+font-family: HDColton-Semibold;
+font-weight: 600;
+font-style: Regular;
+font-size: 32px;
+vertical-align: middle;
+color: #F17E00;
+}
+
+
+.pdc_itm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+
+.pdc_left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.txt_pr_3{
+padding: 0 0 0;
+font-family: HDColton-Medium;
+font-weight: 500;
+font-style: Regular;
+font-size: 64px;
+vertical-align: middle;
+color: #232323;
+}
+
+.pr_txt_top{
+    display: flex;
+    align-items: center;
+    gap: 99px;
+}
+
+.back{
+    background-color: #FFFFFF;
+}
+
+.product_btn{
+border: none;
+width: 211px;
+height: 53px;
+border-radius: 26.5px;
+background-color: #F17E00;
+cursor: pointer;
+
+font-family: HDColton-Medium;
+font-weight: 500;
+font-style: Regular;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+
+.txt_pr_4{
+padding: 0 0 47px;
+font-family: HDColton-Light;
+font-weight: 300;
+font-style: Regular;
+font-size: 34px;
+color: #C0C0C0;
+position: relative;
+
+text-decoration: line-through;
+}
+
+
+
+
+.ul_1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+font-family: Montserrat;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #232323;
+margin-bottom: 5px;
+}
+
+
+.ul_2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 16px;
+color: #232323;
+}
+
+.ul_2 li{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.icn{
+width: 16px;
+height: 16px;
+}
+
+.icn img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.prdct_left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.prdct_itm{
+    background-color: #b3b3b3;
+width: 592px;
+height: 395px;
+}
+
+.prdct_itm img{
+    width: 100%;
+    height: 100%;
+}
+
+.pdct_flx{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+
+.prdct_itm_mni{
+width: 135;
+height: 112px;
+background-color: #F17E00;
+}
+
+.prdct_itm_mni img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* tab_logic */
+.tabs_container {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.tabs_buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Общие стили для кнопок */
+.tab_btn {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 2px solid #f27f00; /*
+   Оранжевый цвет */
+  background-color: transparent;
+  color: #f27f00;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+/* Стили для активной (нажатой) кнопки */
+.tab_btn.active {
+  background-color: #f27f00;
+  color: #fff;
+}
+
+/* Контентная зона */
+.tabs_content {
+  line-height: 1.6;
+  color: #333;
+  font-size: 15px;
+}
+
+/* tab_logic */
+
+
+.txt_pr_5{
+    padding: 0 0 0;
+    font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: #000000;
+}
+
+.txt_pr_6{
+padding: 10px 0 10px;
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: #000000; 
+}
+
+
+.txt_pr_7{
+   padding: 10px 0 10px;
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: #000000; 
+}
+
+
+
+/* cataloc */
+.mattresses_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 35px 0;
+    background-color: #FFFFFF;
+}
+
+.mattresses_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 549px;
+    gap: 40px;
+}
+
+
+
+.mattresses_elm{
+    background: linear-gradient(180deg, rgba(237, 237, 237, 0.52) 0%, rgba(231, 231, 231, 0.52) 100%);
+      
+    position: relative;
+    border-radius: 24px;
+}
+
+.mattresses_cntr{
+    position: absolute;
+    left: 0; top: 0;
+    padding: 40px;
+}
+
+.mtr{
+width: 458px;
+height: 549px;
+}
+
+.mtr img{
+    width: 100%;
+    height: 100%;
+}
+
+.mattresses_cntr{
+    position: absolute;
+    left: 0; top: 0;
+    padding: 40px;
+}
+
+.catloc_txt_3{
+    font-family: HDColton-Light;
+font-weight: 300;
+font-style: Regular;
+font-size: 36px;
+vertical-align: middle;
+padding: 0 0 18px;
+color: #232323;
+}
+
+
+.line_2{
+width: 274;
+height: 5px;
+border-radius: 3px;
+background-color: #F17E00;
+}
+
+
+.ul_1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+color: #232323;
+margin-top: 23px;
+}
+
+
+.offers_block{
+    background-color: #FFFFFF;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.catloc_txt_8{
+    padding: 0 0 60px;
+    font-family: HDColton-Light;
+font-weight: 300;
+font-style: Regular;
+font-size: 48px;
+text-align: center;
+vertical-align: middle;
+color: #232323;
+}
+
+
+.offers_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 526px;
+    gap: 21px;
+}
+
+.bk{
+    background-color: #FFFFFF;
+}
+
+
+.offers_itm{
+    background-color: #E0E0E094;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.off_top{
+    border-radius: 20px;
+    width: 339px;
+    height: 254px;
+    margin-bottom: 30px;
+    border: 3px solid #E0E0E094;
+    margin-bottom: 20px;
+}
+
+.off_top img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.mbl_back{
+    background: linear-gradient(90deg, #FEA16D 0%, #A995E2 100%);
+}
+
+.cart_back{
+    background-color: #FFFFFF;
+}
+
+.offers_bottom{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+
+.lft_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.catloc_txt_5{
+   font-family: HDColton-Semibold;
+font-weight: 600;
+font-style: Regular;
+font-size: 20px;
+text-align: right;
+vertical-align: middle;
+ color: #F17E00;
+}
+
+
+.catloc_txt_6{
+    font-family: HDColton-Light;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+vertical-align: middle;
+color: #9E9E9E;
+
+text-decoration: line-through;
+}
+
+.catloc_txt_7{
+padding: 11px 0 0;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #000000CC;
+}
+
+
+.bottom_btn{
+margin-top: auto;
+
+display: flex;
+justify-content: right;
+}
+
+
+.btn{
+border: none;
+width: 131px;
+height: 41px;
+border-radius: 20.5px;
+border: 2px solid #F17E00;
+background-color: #FFFFFF;
+
+font-family: HDColton-Medium;
+font-weight: 500;
+font-style: Regular;
+font-size: 14px;
+color: #F17E00;
+cursor: pointer;
+
+}
+/* cataloc */
+
+
+
+@media(max-width: 1200px){
+.prdct_itm {
+    width: 180px;
+    height: 395px;
+}
+
+
+.txt_pr_3 {
+    padding: 0 0 0;
+    font-size: 48px;
+}
+
+
+.pr_txt_top {
+    align-items: center;
+    gap: 80px;
+    display: flex;
+}
+
+
+.pdc_itm {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+}
+
+
+.prdct_itm_mni {
+    width: 120px;
+    height: 100px;
+}
+
+
+
+.prdct_itm {
+    width: 180px;
+    height: 355px;
+}
+
+
+
+.offers_grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 526px;
+    gap: 21px;
+    display: grid;
+}
+}
+
+
+
+@media(max-width: 992px){
+.product_btn {
+    width: 170px;
+    height: 53px;
+    border-radius: 26.5px;
+    font-size: 16px;
+}
+
+
+.pr_txt_top {
+    align-items: center;
+    gap: 9px;
+    display: flex;
+}
+
+
+.txt_pr_3 {
+    padding: 0 0 0;
+    font-size: 40px;
+}
+
+
+.offers_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 526px;
+    gap: 21px;
+    display: grid;
+}
+}
+
+
+@media(max-width: 768px){
+.pdc_itm {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+
+}
+
+
+@media(max-width: 576px){
+.txt_pr_2 {
+    padding: 0 0 60px;
+    font-size: 25px;
+}
+
+
+.txt_pr_5 {
+    padding: 0;
+    font-size: 14px;
+}
+
+.txt_pr_6 {
+    font-family: Montserrat;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
+.offers_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 526px;
+    gap: 21px;
+    display: grid;
+}
+}
+
+
+
+@media(max-width: 375px){
+    .catloc_txt_8 {
+    padding: 0 0 60px;
+    font-size: 40px;
+}
+}

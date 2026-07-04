@@ -38,7 +38,7 @@ export default function Page(){
             <div className="container">
                 <div className={styles.mattresses_block}>
                     <div className={styles.mattresses_grid}>
-                        <Link href="#">
+                        <Link href="/cataloc_2">
                         <div className={styles.mattresses_elm}>
                             <div className={styles.mtr}>
                                 <img src="./catalog_pht/mattress.png" alt="" />
